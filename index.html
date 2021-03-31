@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <h1 id="title">Title 16h02</h1>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, qui?</p>
+  <h1 id="title">Title 16h02</h1>
 
-    <form action="" id="survey-form">
-      <div class="form-element">
-        <label for="name" id ="name-label">"Your name</label>
-        <input type="text" id="name" name="name" placeholder="write your name" required>
-      </div>
-      
-      <div class="form-element">
-        <label for="email" id="email-label">Your Email</label>
-        <input type="email" id="email" name="email" placeholder="write your mail" required>
-       
-      </div>
-      <div class="form-element">
-        <label for="number" id="number-label"> enter a number</label>
-     
-        <input type="number" name = "number" id="number" type="number" min="1" max="30" placeholder="a number between 1 and 30">
-       
-      </div>
+  <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, qui?</p>
 
-    </form>
+  <form action="" id="survey-form">
+    <div class="form-element">
+      <label for="name" id="name-label">"Your name</label>
+      <input type="text" id="name" name="name" placeholder="write your name" required>
+    </div>
 
-    <script  src="js/index.js"></script>
-  </body>
+    <div class="form-element">
+      <label for="email" id="email-label">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="write your mail" required>
+
+    </div>
+    <div class="form-element">
+      <label for="number" id="number-label">Enter a number</label>
+      <input type="number" name="number" id="number" type="number" min="1" max="30"
+        placeholder="a number between 1 and 30">
+    </div>
+
+    <div class="form-element">
+      <label for="dropdown" id="dropdown-label">Select your favorite...</label>
+      <select name="dropdown" id="dropdown">
+        <option value="option1" id="option1" selected>Option 1</option>
+        <option value="option2" id="option2">Option 2</option>
+        <option value="option3" id="option3">Option 3</option>
+        <option value="option4" id="option4">Option 4</option>
+        <option value="option5" id="option5">Option 5</option>
+        <option value="option6" id="option6">Option 6</option>
+        <option value="option7" id="option7">Option 7</option>
+        <option value="option8" id="option8">Option 8</option>
+      </select>
+    </div>
+
+    <div class="form-element">
+      <label for="choice" id="choice-label">Select your favorite...</label>
+      <input type="radio" id="choice1" name="choices" value="Choice 1">
+      <label for="choice1" name="choices">Choice 1</label>
+      <input type="radio" id="choice2" name="choices" value="Choice 2">
+      <label for="choice2" name="choices">Choice 2</label>
+      <input type="radio" id="choice3" name="choices" value="Choice 3">
+      <label for="choice3" name="choices">Choice 3</label>
+      <input type="radio" id="choice4" name="choices" value="Choice 4">
+      <label for="choice4" name="choices">Choice 4</label>
+    </div>
+    
+
+  </form>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
